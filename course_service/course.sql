@@ -161,8 +161,9 @@ LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` VALUES
 (1,'super admin','admin@gmail.com','ini password','08171122233333','2022-06-15 13:02:09','2022-06-15 13:02:09'),
-(2,'ahsan','ahsan@mail.com','$2a$10$mM7/GAbcxBE1.Z2ALg83puE3Vcqn75UlAEexxa/xbIaQCmjb8PKoa','','2022-06-15 23:45:44','2022-06-15 23:45:44'),
-(3,'ahsan','ahsan2@mail.com','$2a$10$UOJAFVPbm4QtObtejd0fy.RduB5brNCqGx4Kv10XpAVxmYIhOT9Vi','','2022-06-16 19:21:49','2022-06-16 19:21:49');
+(2,'ahsan','ahsan@gmail.com','$2a$10$mM7/GAbcxBE1.Z2ALg83puE3Vcqn75UlAEexxa/xbIaQCmjb8PKoa','','2022-06-15 23:45:44','2022-06-15 23:45:44'),
+(3,'ahsan','ahsan2@gmail.com','$2a$10$UOJAFVPbm4QtObtejd0fy.RduB5brNCqGx4Kv10XpAVxmYIhOT9Vi','','2022-06-16 19:21:49','2022-06-16 19:21:49');
+(4,'fajar','fajar@gmail.com','$2a$12$.ACjuB1hFwy.FJ6FhWwspO0VHQecYxoIE.vpoecaSGL5zvpdl829e','','2022-06-16 19:21:49','2022-06-16 19:21:49');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
